@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Plantaria</string>
+    <string name="species_name">Species Name</string>
+    <string name="plant_name">Plant Name</string>
+    <string name="watering_schedule">Watering Schedule (day)</string>
+    <string name="delete">delete</string>
+    <string name="needwater">NEEDS WATER</string>
+    <string name="done">done</string>
+    <string name="capture">Capture</string>
+
+    <string name="penjeanyelir">Tanaman Anyelir menghendaki tanah yang gembur dan subur sehingga bisa ditambahkan arang sekam dan pupuk komposTanaman Anyelir tidak tahan terhadap air menggenang atau berlebihan, pH yang cocok berkisar 5,5 - 6,7. Cocok ditanam pada lahan di ketinggian antara 700-1200 meter. Perbanyakan tanaman dengan setek atau lewat kultur jaringan</string>
+    <string name="penjetasbih">Ada beberapa spesies yang umumnya banyak dibudidayakan sebagai tanaman hias. Salah satu yang paling dikenal di Indonesia adalah Canna indica L. atau tanaman bunga tasbih. Banyak digunakan sebagai tanaman hias di taman kota karena keindahan bunganya. Bunga dari tanaman ini merah cerah, merah muda juga ada yang berwarna kuning, dalam bentuk tandan. Warnanya yang sangat terang dan indah. Perbanyakan menggunakan anakan atau rimpang. Tanaman Bunga Tasbih bisa tumbuh sampai ketinggian 1000 meter di atas permukaan air laut, 2ada suhu 10-320C, dengan curah hujan 1000-1200 mm/tahun, dan pH 4,5-8. Tanah yang disukai adalah lempung berpasir dan kaya humus. Perbanyakan tanaman biasa dilakukan secara vegetatif menggunakan umbi berukuran sedang dengan 1-2 mata tunas.</string>
+    <string name="penjebougenville">Tanaman perdu memanjat dan berbatang kayu, mempunyai duri yang berbentuk kait, tinggi bisa mencapai 5 -15 m, Bunga kecilkecil seperti terompet, tumbuh berkelompok tiga, masing-masing bunga mempunyai satu daun pelindung yang lebar, sehingga ketiga kelompok bunga tersebut membentuk satu kesatuan seperti sekuntum bunga. Warna daun pelindung beraneka ragam, tergantung jenisnya, ada yang berwarna merah, ungu, jingga, putih, atau kuning. Tanaman Bugenvil menyukai tanah gambur yang mengandung pasir, dan cahaya matahari langsung. Pengembangbiakan dapat dilakukan dengan setek batang, cangkok, okulasi, atau biji.</string>
+    <string name="penjedahlia">Bunga Dahlia adalah tanaman perdu berumbi yang sifatnya tahunan (perenial). Perbanyakan bunga dahlia dapat dilakukan dengan cara vegetatif dengan stek.</string>
+    <string name="penjekamboja">Batangnya sukulen. Berbagai varietas. Bunganya yang indah dengan berbagai warna. Memiliki variasi warna bunga merah, pink, ungu, putih, kombinasi garis, strip, bintik-bintik. Yang menarik lainnya dari adenium adalah bonggol tanamannya.</string>
+
+    <string name="penjeblanceng">Tanaman golongan tales/keladi. Mudah ditanam di tempat yang teduh dan tempat yang disinari matahari. Daun besar, panjang (±40 cm), warna hijau tua bintikbintik kuning tidak beraturan. Air yang keluar dari tanaman dapat menyebabkan gatal bila kena kulit.</string>
+    <string name="penjepuring">Tanaman Puring dahulunya hanya dikenal sebagai tanaman peneduh makam. Sekarang tanaman Puring sudah banyak ditanam sebagai tanaman hias halaman maupun sebagai pagar. Daunnya yang berwarna-warni dan bentuknya yang beraneka menjadikan Puring banyak dikoleksi oleh penghobi.</string>
+    <string name="penjepalem">Biasa ditanam baik untuk outdoor plant maupun indoor plant. Tanaman Palm Kuning termasuk salah satu jenis tanaman yang disukai oleh jasa rental tanaman karena mampu bertahan hidup meskipun di tempatkan di hawa dingin yang di timbulkan oleh ac. Meskipun Palm Kuning mampu bertahan pada kondisi suhu yang ber ac tetapi juga harus sering dikeluarkan untuk menjaga kebugaran tanaman.</string>
+    <string name="penjelidah">Tanaman lidah buaya berbentuk semak rendah, bersifat sukulen dan menyukai hidup di tempat kering. Batang tanaman pendek, panjang daun 40-90cm, lebar 6-13cm, serta bunga berbentuk lonceng</string>
+    <string name="penjeekor">Ekor kucing merupakan tanaman perdu, tumbuh tegak, tinggi 1-3 meter. Batang bulat, berwarna cokelat kehijauan. Daun tunggal, bertangkai panjang, letak berseling. Bunga berkelamin tunggal dalam satu pohon. Bunga betina berkumpul dalam karangan berbentuk bulir yang keluar dari ketiak daun, bentuknya bulat panjang berjuntai ke bawah, berdiameter 1-1,5 cm, panjang 20-50 cm, berwarna merah, seperti ekor kucing karena itu disebut tanaman Ekor kucing. Buahnya bulat, kecil, berambut, berwarna hijau. Biji berbentuk bulat, kecil, berwarna putih kotor. Ekor kucing dapat diperbanyak dengan biji.</string>
+
+
+</resources>

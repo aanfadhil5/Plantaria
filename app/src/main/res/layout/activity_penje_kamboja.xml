@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".explore.penjelasan.PenjeKamboja">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:src="@drawable/explore_indoor_kamboja"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/plant_name_expl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="20dp"
+        android:text="Nama Tanaman: \t Kamboja Jepang"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/plant_division_expl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/plant_name_expl"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="30dp"
+        android:text="Divisi: \t \t \t Magnoliophyta"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/plant_class_expl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/plant_division_expl"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="30dp"
+        android:text="Kelas: \t \t \t Magnoliopsida"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/plant_ordo_expl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/plant_class_expl"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="30dp"
+        android:text="Ordo:  \t \t \t Gentianales"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/plant_family_expl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/plant_ordo_expl"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="30dp"
+        android:text="Famili: \t \t \t Apocynaceae"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/plant_genus_expl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/plant_family_expl"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="30dp"
+        android:text="Genus:\t\t\t Adenium"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/plant_species_expl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/plant_genus_expl"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="30dp"
+        android:text="Spesies: \t Adenium sp."
+        android:textSize="14sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/penjekamboja"
+        android:layout_below="@+id/plant_species_expl"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_margin="20dp"
+        />
+</RelativeLayout>

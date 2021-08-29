@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.arazzi.plantaria">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Plantaria">
+        <activity android:name=".explore.penjelasan.PenjePuring"></activity>
+        <activity android:name=".explore.penjelasan.PenjeEkor" />
+        <activity android:name=".explore.penjelasan.PenjeKamboja" />
+        <activity android:name=".explore.penjelasan.PenjeTasbih" />
+        <activity android:name=".explore.list.ListViewAll2" />
+        <activity android:name=".explore.list.ListViewAll1" />
+        <activity android:name=".explore.penjelasan.PenjePalem" />
+        <activity android:name=".explore.penjelasan.PenjeLidah" />
+        <activity android:name=".explore.penjelasan.PenjeBlanceng" />
+        <activity android:name=".explore.penjelasan.PenjeDahlia" />
+        <activity android:name=".explore.penjelasan.PenjeAnyelir" />
+        <activity android:name=".explore.penjelasan.PenjeBougenville" />
+        <activity android:name=".explore.Explore" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Dashboard" />
+        <activity android:name=".water.reminder.WaterReminder" />
+        <activity android:name=".water.reminder.ChangePlantActivity" />
+        <activity android:name=".water.reminder.AddPlantActivity" />
+
+        <provider
+            android:name=".water.reminder.PlantFileProvider"
+            android:authorities="${applicationId}.com.arazzi.plantaria.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_path" />
+        </provider>
+    </application>
+</manifest>
